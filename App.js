@@ -31,7 +31,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.tasksWrapper}>
-        <Search placeholder="Search Task" style={styles.searchbar} />
+        <TextInput placeholder="Search Task" style={styles.searchbar} />
         <Text style={styles.title}>Today's Tasks</Text>
 
         <View style={styles.items}>
